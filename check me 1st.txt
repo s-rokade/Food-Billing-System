@@ -1,0 +1,25 @@
+Create database----
+database name="pythonproject"
+
+SQL query to create table----
+create table food_system_data(Bill_id int(8)unique, Date Date default now(),Total_ammount float(8,2));
+
+
+Working:
+1.select checkbutton--it will change the state of entry box,it make entry box state enable 
+
+2.enter number in entry box--it repesent quantity of food (1,2...n)
+
+3.Click on Total button--it show all charges and total_amount of food which include food cost + service charge + tax.
+
+4.Click on Receipt button---it show msg data inserted sucessfully --it means current date ,unique bill id and total amount is save in backend.
+                            it also show the receipt. which include  items ,cost of item and total_amount scroll down and check it will show all
+                            service charges and tax.
+
+5.Click on Reset button---it will make entry box state disable and set all checkbutton value 1 to 0.
+
+6.Click on Exit button---it show confirmation msg for user if user want to exit and reset it after this msg.
+
+7.Click on Show button---it shows all bill no with date and amount from backend.
+                         it show all data which store in backend and data store in backend when we click on receipt button.  
+
